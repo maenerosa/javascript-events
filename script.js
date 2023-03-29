@@ -9,5 +9,9 @@ function changeBackground() {
     255
   )})`;
 }
+function displayMessage() {
+  return alert("YAY! YOU DID IT!");
+}
 
 body.addEventListener("click", changeBackground);
+button.addEventListener("click", displayMessage);
